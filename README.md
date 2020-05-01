@@ -4,7 +4,7 @@
 
 This project contains some components such as ViewModel, Fragments, RecyclerView, CardView, ViewPager, TabLayout.
 Also, I used Firebase: Authentication module and Cloud Firestore. I implemented a MVVM architecture, and other components
-is also used such as Shared Preferences and OptionMenu.
+are also used such as Glide, Shared Preferences, and OptionMenu.
 
 The comunication between components is made throughout interfaces.
 
