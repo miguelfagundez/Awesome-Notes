@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Awesome Notes</string>
+    <string name="start">Comenzar</string>
+    <string name="update_profile">Actualizar</string>
+    <string name="logout">Salir</string>
+    <string name="user_name">Usuario</string>
+    <string name="add_new_note">Crear una nota</string>
+    <string name="settings">Herramientas</string>
+    <string name="canceled_sign_in">Has cancelado la sesion!</string>
+    <string name="creation_date">Fecha de creacion:</string>
+    <string name="last_edit">Ultima edicion:</string>
+    <string name="note_title">Titulo</string>
+    <string name="note_description">Descripcion</string>
+    <string name="note_body">Nota</string>
+    <string name="error_camera">Error tomando la foto desde la camera</string>
+    <string name="profile_update_successfully">Perfil guardado satisfactoriamente..</string>
+    <string name="profile_has_not_changed">El perfil no ha sido modificado..</string>
+    <string name="new_user">Usuario nuevo!</string>
+    <string name="welcome_back">Bienvenido de nuevo!</string>
+    <string name="note_deleted">Nota borrada</string>
+    <string name="undo">Deshacer</string>
+    <string name="make_copy">Hacer una copia</string>
+    <string name="select_app">Selecciona una app:</string>
+    <string name="one_time_register">Notas protegidas y disponibles online.</string>
+    <string name="notes_pictures">Comparte tus notas con tus amigos.</string>
+    <string name="notes_external_card">Desliza a la izquierda para borrar una nota.</string>
+    <string name="title_onboarding">Notas seguras</string>
+    <string name="title_picture_onboarding">Comparte tus notas</string>
+    <string name="title_memory_onboarding">Borrado facil</string>
+    <string name="back">Regresar</string>
+    <string name="next">Siguiente</string>
+    <string name="title_no_empty">El titulo no puede ser vacio..</string>
+    <string name="note_has_been_copied">Nota ha sido copiada..</string>
+</resources>

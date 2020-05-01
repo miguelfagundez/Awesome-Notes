@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_settings"
+        android:orderInCategory="100"
+        android:title="@string/settings"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_settings"/>
+    <item
+        android:id="@+id/menu_share"
+        android:title="MenuShare"
+        app:showAsAction="always"
+        android:orderInCategory="200"
+        android:icon="@drawable/ic_share"/>
+    <item
+        android:title="MenuOptions"
+        app:showAsAction="always"
+        android:orderInCategory="300"
+        android:icon="@drawable/ic_more_vert">
+        <menu>
+            <item
+                android:id="@+id/menu_add"
+                android:orderInCategory="100"
+                android:title="@string/add_new_note"
+                app:showAsAction="never"
+                android:icon="@drawable/ic_add_circle"/>
+            <item
+                android:id="@+id/menu_copy"
+                android:orderInCategory="100"
+                android:title="@string/make_copy"
+                app:showAsAction="never"
+                android:icon="@drawable/ic_make_copy"/>
+            <item
+                android:id="@+id/menu_logout"
+                android:orderInCategory="100"
+                android:title="@string/logout"
+                app:showAsAction="never"
+                android:icon="@drawable/ic_logout"/>
+        </menu>
+    </item>
+
+</menu>

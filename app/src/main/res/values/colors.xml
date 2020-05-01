@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#3D5AFE</color>
+    <color name="colorDelete">#FF2952</color>
+
+    <!-- Onboarding -->
+    <!-- button colors -->
+    <color name="btnStarColor">#E13936</color>
+    <color name="btnEndColor">#FF7674</color>
+    <color name="btnTextColor">#FFFFFF</color>
+
+    <!-- background color -->
+    <color name="background">#FFFFFF</color>
+
+    <!-- text color -->
+    <color name="txtColorTitle">#000000</color>
+    <color name="txtColorDescription">#656565</color>
+
+    <!-- tab color -->
+    <color name="tabColorDefault">#c0c0c0</color>
+    <color name="tabIndicatorSelectedColor">#E13936</color>
+</resources>

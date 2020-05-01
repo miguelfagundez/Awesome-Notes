@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            android:shape="ring"
+            android:innerRadius="@dimen/dimen_3dp"
+            android:thickness="@dimen/dimen_2dp"
+            android:useLevel="false">
+            <solid
+                android:color="@color/tabIndicatorSelectedColor"/>
+        </shape>
+    </item>
+</layer-list>

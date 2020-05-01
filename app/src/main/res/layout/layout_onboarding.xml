@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.7" />
+
+    <TextView
+        android:id="@+id/tvOnboardingTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="---- Title ----"
+        android:textAlignment="center"
+        android:textColor="@color/txtColorTitle"
+        android:textSize="@dimen/dimen_32sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/guidelineCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/guidelineCenter" />
+
+    <TextView
+        android:id="@+id/tvOnboardingDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:textAlignment="center"
+        android:layout_marginTop="@dimen/dimen_24dp"
+        android:lineSpacingExtra="@dimen/dimen_8dp"
+        android:text="TextView Description"
+        android:textColor="@color/txtColorDescription"
+        android:textSize="@dimen/dimen_18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvOnboardingTitle"
+        app:layout_constraintVertical_bias="0.20" />
+
+    <ImageView
+        android:id="@+id/ivOnboardingImage"
+        android:layout_width="0dp"
+        android:layout_height="222dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginStart="@dimen/dimen_16dp"
+        android:layout_marginEnd="@dimen/dimen_16dp"
+        app:layout_constraintBottom_toTopOf="@id/tvOnboardingTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:mipmap/sym_def_app_icon" />
+</androidx.constraintlayout.widget.ConstraintLayout>
