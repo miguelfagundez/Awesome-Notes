@@ -8,6 +8,8 @@ are also used such as Glide, Shared Preferences, and OptionMenu.
 
 The comunication between components is made throughout interfaces.
 
+This project was published in Google Play (1st version): https://play.google.com/store/apps/details?id=com.devproject.miguelfagundez.cloudnotepad
+
 ## Steps for running this project:
 
 **1.** Create Firebase project: https://firebase.google.com/
